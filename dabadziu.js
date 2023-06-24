@@ -227,7 +227,7 @@ const onRollEnd = (mutation) => {
   lastColor !== "green" && (lastGreen = false);
 
   beted = false;
-  !lastGreen && setTimeout(() => doBet(), 6000);
+  !lastGreen && setTimeout(() => doBet(), 3750);
 };
 
 const observer = new MutationObserver((mutations) => {
